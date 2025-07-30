@@ -77,12 +77,3 @@ src/
 ```
 
 ---
-
-## 📦 Deploy
-
-### Vercel / Netlify
-
-* Output directory: `dist`
-* Build command: `npm run build`
-
----
