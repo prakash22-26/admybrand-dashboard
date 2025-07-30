@@ -123,7 +123,7 @@ export default function Dashboard() {
         </FadeIn>
 
         {/* Line and Bar Charts */}
-        <div className=" flex flex-col sm:flex-row flex-wrap justify-between">
+        <div className=" flex flex-wrap justify-between">
           <FadeIn delay={0.3} className="flex-1 m-[10px]">
             <div className="backdrop-blur-lg bg-white/20 dark:bg-gray-800/30 border-2 border-black dark:border-white rounded-[10px] p-6 h-full m-[10px]" style={{ boxShadow: "0 12px 30px rgba(0, 0, 0, 0.25), 0 4px 10px rgba(0, 0, 0, 0.1)" }}>
               <h2 className="text-xl font-semibold text-white dark:text-gray-100 mb-4">
@@ -144,7 +144,7 @@ export default function Dashboard() {
         </div>
 
         {/* Pie Chart */}
-        <div className="flex flex-col sm:flex-row flex-wrap justify-between">
+        <div className="flex flex-wrap justify-between">
           <FadeIn delay={0.5} className="flex-1 m-[10px]">
             <div className="backdrop-blur-lg bg-white/20 dark:bg-gray-800/30 border-2 border-black dark:border-white rounded-[10px] p-6 h-full m-[10px]" style={{ boxShadow: "0 12px 30px rgba(0, 0, 0, 0.25), 0 4px 10px rgba(0, 0, 0, 0.1)" }}>
               <h2 className="text-xl font-semibold text-white dark:text-gray-100 mb-4">
