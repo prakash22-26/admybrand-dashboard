@@ -25,7 +25,7 @@ Hosted URL (example): [https://admybrand-dashboard.vercel.app](https://admybrand
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/admybrand-dashboard.git
+git clone https://github.com/prakash22-26/admybrand-dashboard.git
 cd admybrand-dashboard
 
 # Install dependencies
@@ -84,11 +84,3 @@ src/
 * Build command: `npm run build`
 
 ---
-
-## 📄 License
-
-This project is built for demonstration, hiring, and portfolio purposes.
-
----
-
-Need help with deployment or contribution setup? Let me know! ✅
