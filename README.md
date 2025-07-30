@@ -8,6 +8,8 @@ A modern, animated analytics dashboard built with **React**, **Vite**, and **Tai
 
 Hosted URL : https://admybrand-dashboard-wj99-cyan.vercel.app/
 
+another URL : radiant-pavlova-c6b7b5.netlify.app
+
 ---
 
 ## 🚀 Tech Stack
