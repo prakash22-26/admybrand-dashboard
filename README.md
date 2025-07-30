@@ -6,7 +6,7 @@ A modern, animated analytics dashboard built with **React**, **Vite**, and **Tai
 
 ## 🌐 Live Demo
 
-Hosted URL (example): [https://admybrand-dashboard.vercel.app](https://admybrand-dashboard.vercel.app)
+Hosted URL : https://admybrand-dashboard-wj99-cyan.vercel.app/
 
 ---
 
