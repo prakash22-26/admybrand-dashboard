@@ -123,8 +123,8 @@ export default function Dashboard() {
         </FadeIn>
 
         {/* Line and Bar Charts */}
-        <div className=" flex flex-wrap justify-between">
-          <FadeIn delay={0.3} className="flex-1 m-[10px]">
+        <div className=" flex flex-wrap justify-between gap-6">
+          <FadeIn delay={0.3} className="flex-1 m-[10px] min-w-[240px]">
             <div className="backdrop-blur-lg bg-white/20 dark:bg-gray-800/30 border-2 border-black dark:border-white rounded-[10px] p-6 h-full m-[10px]" style={{ boxShadow: "0 12px 30px rgba(0, 0, 0, 0.25), 0 4px 10px rgba(0, 0, 0, 0.1)" }}>
               <h2 className="text-xl font-semibold text-white dark:text-gray-100 mb-4">
                 📈 Line Chart — Real-time Metrics
@@ -133,7 +133,7 @@ export default function Dashboard() {
             </div>
           </FadeIn>
 
-          <FadeIn delay={0.4} className="flex-1 m-[10px] ">
+          <FadeIn delay={0.4} className="flex-1 m-[10px] min-w-[240px] ">
             <div className="backdrop-blur-lg bg-white/20 dark:bg-gray-800/30 border-2 border-black dark:border-white rounded-[10px] p-6 h-full m-[10px]" style={{ boxShadow: "0 12px 30px rgba(0, 0, 0, 0.25), 0 4px 10px rgba(0, 0, 0, 0.1)" }}>
               <h2 className="text-xl font-semibold text-white dark:text-gray-100 mb-4">
                 📊 Bar Chart — Engagement Overview
@@ -144,8 +144,8 @@ export default function Dashboard() {
         </div>
 
         {/* Pie Chart */}
-        <div className="flex flex-wrap justify-between">
-          <FadeIn delay={0.5} className="flex-1 m-[10px]">
+        <div className="flex flex-wrap justify-between gap-6">
+          <FadeIn delay={0.5} className="flex-1 m-[10px] min-w-[240px]">
             <div className="backdrop-blur-lg bg-white/20 dark:bg-gray-800/30 border-2 border-black dark:border-white rounded-[10px] p-6 h-full m-[10px]" style={{ boxShadow: "0 12px 30px rgba(0, 0, 0, 0.25), 0 4px 10px rgba(0, 0, 0, 0.1)" }}>
               <h2 className="text-xl font-semibold text-white dark:text-gray-100 mb-4">
                 🧁 Pie Chart — Source Split
@@ -158,7 +158,7 @@ export default function Dashboard() {
             </div>
           </FadeIn>
 
-          <FadeIn delay={0.6} className="flex-1 m-[10px]">
+          <FadeIn delay={0.6} className="flex-1 m-[10px] min-w-[240px]">
             <div className="backdrop-blur-lg bg-white/20 dark:bg-gray-800/30 border-2 border-black dark:border-white rounded-[10px] p-6 h-full m-[10px]" style={{ boxShadow: "0 12px 30px rgba(0, 0, 0, 0.25), 0 4px 10px rgba(0, 0, 0, 0.1)" }}>
               <div className="flex justify-between items-center mb-4">
                 <h2 className="text-xl font-semibold text-white dark:text-gray-100">
